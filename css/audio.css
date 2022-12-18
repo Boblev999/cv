@@ -1,0 +1,27 @@
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height:52px;
+  width: 52px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.6);
+  margin-bottom: 20px;
+  margin-right: 26px;
+  z-index: 2;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-color: rgba(255,255,255,0.5);
+  color: rgba(0,0,0,0.9);
+}
+.play {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+}
+.pause {
+   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+}
+
+#player-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
