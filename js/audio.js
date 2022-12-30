@@ -23,9 +23,11 @@ track.addEventListener("ended", function() {
 document.body.title = "Click anywhere to enable music";
 
 document.body.addEventListener("click", function () {
-    if (notAutoPlayed && track.paused) {
-		track.play();
-		controlBtn.className = "pause";
+    if (notAutoPlayed) {
+    	if (track.paused) {
+			track.play();
+			controlBtn.className = "pause";
+    	}
 		notAutoPlayed = false;
 		document.body.removeAttribute("title");
     }
